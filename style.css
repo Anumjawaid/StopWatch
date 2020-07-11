@@ -1,0 +1,108 @@
+body{
+    font-weight: 300;
+    /* background: linear-gradient(); */
+    background-image: url("abd.JPG");
+    background-attachment: fixed;
+    background-size: cover;
+    animation:shake 0.5s infinite;
+    /* transition: background-image 5s infinite; */
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    color:rgb(225, 207, 238);
+    
+    
+}
+.main{
+    display: inline-block;
+    min-width: 360px;
+    min-height: 400px;
+    padding: 50px 15px;
+    background:transparent;
+    box-shadow: 0 5px 25px rgb(58, 2, 34); /*linear-gradient(pink,purple);*/
+    border-radius: 8px;
+    text-align: center;
+}
+h3{
+    font-size: 70px;
+    font-weight: bolder;
+}
+#timer{
+    position: absolute;
+    width: 250px;
+    height: 250px;
+    line-height: 250px;
+    border-radius: 50%;
+    margin :0 auto;
+    background-clip: unset;
+    
+}
+h2{
+    color:rgb(225, 207, 238);
+    /* margin-bottom: 20px; */
+    font-size: 40px;
+    font-weight: bolder;
+}
+button{
+    margin: 0 10px;
+    border-radius: 100px;
+    border-color: rgb(58, 2, 34);
+    color: rgb(225, 207, 238);
+    height:50%;
+    width:150px;
+    display: inline-block;
+    background-color: transparent;
+    font-weight: large;
+    font-size: 30px;
+}
+button:hover{
+    margin: 0 10px;
+    border-radius: 100px;
+    border-color: rgb(58, 2, 34);
+    color: rgb(225, 207, 238);
+    height:50%;
+    width:150px;
+    display: inline-block;
+    background-color: salmon;
+    font-weight: large;
+    font-size: 30px;
+
+}
+
+.center{
+ 
+    position: absolute;
+    top: 60%;
+    width: 100%;
+    text-align: center;
+    font-size: 25px;
+    font-weight: bolder;
+}
+h1{
+    display:inline;
+}
+
+
+
+@keyframes animate
+{
+   from
+   { transform: rotate(0deg);
+   }
+   to
+   {
+    transform: rotate(180deg);
+   }}
+img{
+    opacity:0.5;
+    /* position: absolute; */
+    /* top: 50%;
+    left:30%; */
+
+    /* left:50%;
+    right:50%; */
+    animation: animate 1s linear infinite;
+    
+
+
+}
