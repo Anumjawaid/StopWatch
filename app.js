@@ -59,10 +59,13 @@
   }
   function  chalja(){
   interval=setInterval(timer,10)//10*100 msec wise
+  document.getElementById("start").disabled = true;
   }
 
   function rukja(){
     clearInterval(interval)
+  document.getElementById("start").disabled = false;
+
   }
   function basbhaibas(){
     min=0
